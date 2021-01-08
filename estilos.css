@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/we.png) no-repeat center top;
+
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    
+}
+    
+
+
+.content-all{
+  display: grid;
+    grid-template-columns: 0.5fr 30%;
+    grid-gap: 5px;
+  
+    justify-content: center;
+    align-content: center;
+    
+    height: 100vh;
+    
+    
+  
+    align-items: center;
+    
+    
+    
+    box-sizing: border-box;
+    padding: 70px 30px;
+   
+}
+
+    
+
+
+
+.login1{
+    display: grid;
+ 
+    justify-content: space-evenly;
+    align-items: center;
+   border-radius: 5%;
+    width: 50vh;
+    height: 75vh;
+    background-color: #151719;
+}
+
+.content-all h1 {
+    margin: 0;
+   
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+.logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+   
+    margin-left: 33%;
+    padding: 0;
+}
+
+
+
+.login2{
+    display: grid;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   border-radius: 5%;
+    width: 50vh;
+    height: 75vh;
+    background-color: #151719;
+ 
+}
+
+#title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ form{
+    
+    width: 48vh;
+    display: grid;
+    vertical-align: bottom;
+   grid-gap: 10px;
+ 
+    
+}
+
+.login2 form{
+    margin-top: -15%;
+}
+
+.login1 h1{
+    color: white;
+    margin-top: ;
+    margin-top: -10%;
+}
+
+.login2 h1{
+    color: white;
+    margin-top: -10%;
+ 
+}
+
+label{
+    color: #fff;
+}
+
+#boton1{
+    
+    margin-bottom: 1%;
+  margin-left: 25%;
+     border-radius: 50px;
+     width: 25vh;
+     font-size: 20px;
+     border: none;
+     cursor: pointer;
+     margin-top: 10%;
+   
+   
+ 
+    
+     
+ 
+ }
+
+#boton{
+   
+   margin-bottom: 1%;
+   margin-left: 25%;
+    border-radius: 50px;
+    width: 25vh;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 3%;
+    
+
+}
+
+
+#boton:focus{
+
+    outline: none;
+       
+    
+    }
+
+    .content-all input[type="date"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+      
+      }
+
+    .content-all input[type="text"], .content-all input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+      }
+      
+      .content-all input[type="submit"] {
+        
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #b80f22;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+       
+      
+      }
+
+      
+      .content-all input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+      }
+      
+      
+
